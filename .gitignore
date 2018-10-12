@@ -1,0 +1,25 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+run/
+logs/
+.DS_Store
+.vscode
+*.swp
+*.lock
+*.js
+!.autod.conf.js
+deploy.sh
+
+app/**/*.js
+test/**/*.js
+
+app/**/*.map
+test/**/*.map
+config/**/*.map
+
+# configs
+config/**/*.js
+.env
